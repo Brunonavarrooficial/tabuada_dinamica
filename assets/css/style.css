@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.content-tabuada {
+    width: 100%;
+    text-align: center;
+    max-width: 500px;
+    background-color: #fff;
+    margin: auto;
+    padding: 20px;
+}
+
+.content-tabuada table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.content-tabuada td {
+    padding: 0.75rem;
+    border-top: 1px solid #dee2e6;
+}
+
+.content-tabuada tbody tr:nth-child(odd) {
+    background-color: rgba(0, 0, 0, .05);
+}
+
+.content-tabuada tbody tr:hover {
+    background-color: aqua;
+    cursor: pointer;
+}
